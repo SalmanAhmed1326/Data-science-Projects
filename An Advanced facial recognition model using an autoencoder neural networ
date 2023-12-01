@@ -1,0 +1,11 @@
+In this project, we have developed an advanced facial recognition model using an autoencoder neural network. Our initial dataset comprised of 699 unlabeled images, which we meticulously annotated into 12 distinct categories, creating a comprehensive labeled dataset essential for training the autoencoder.
+
+To ensure optimal performance, we employed a series of preprocessing steps to enhance the dataset quality. These steps encompassed image resizing to a standardized dimension and normalizing pixel values to facilitate consistent data representation. With our refined dataset in hand, we proceeded to train the autoencoder model, leveraging its ability to learn and generate compressed representations of the input facial images.
+
+Building upon the learned representations, we devised a classification model by adding a dense layer on top of the encoder portion of the autoencoder. This classification model was then meticulously trained to accurately categorize facial images into the 12 predefined labels, each representing a distinct individual.
+
+To evaluate the effectiveness of our model, we conducted comprehensive performance analysis. The results were overwhelmingly positive, with the overall accuracy of our classification model reaching an impressive 100%. This remarkable accuracy demonstrates the model's exceptional ability to correctly classify all the test images, affirming its robustness and efficacy.
+
+In addition to the accuracy assessment, we went a step further to visually showcase the model's performance. We carefully selected a subset of test images and presented them alongside their true labels and the corresponding predicted labels. This visualization allowed for a clear understanding of the model's proficiency in recognizing and classifying facial features.
+
+The successful outcome of this project exemplifies the remarkable potential of autoencoder-based techniques in the field of facial recognition. By harnessing the power of cutting-edge deep learning algorithms and employing sophisticated image processing methods, we have achieved exceptional accuracy and performance. This project serves as a testament to the advancements in the realm of artificial intelligence and its application in real-world scenarios.
