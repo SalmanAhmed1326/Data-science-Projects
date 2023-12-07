@@ -13,3 +13,4 @@ This Repo contain different machine learning projects :
   Image Recognition  
   Speech Recognition       
   Predictive Analytics    
+  Fraud Detection
